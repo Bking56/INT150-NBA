@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+ 
+  .site-header {
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    
+    
+  }
+  
+  .top-nav {
+    margin-left: 135px;
+    padding: 4px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .thai img{
+    margin-right: 0;
+  
+  }
+  .thai{
+    
+    align-items: center;
+  }
+  .thai p{
+    margin-right: 100px;
+    font-size: 13px;
+    
+  }
+  
+  .thai{
+    display: flex;
+  }
+  .sub-menu img {margin-left:700px;
+  }
+  /* .topmanu a{  color: #fff;
+    gap: 1px;  ลดช่องว่างให้ชิดที่สุด 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10.5px;
+
+  } */
+ 
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* ลดระยะห่างระหว่างเมนู */
+    padding: 0;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+nav ul li {
+    margin: 0 5px; /* ลดระยะห่างด้านข้างของแต่ละตัวเลือก */
+}
+  
+
+  .logo {
+    height: 40px;
+  }
+  
+  .sport a {
+    color: #fff;
+    margin: left 50px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: serif;
+    list-style: none;
+    padding: 0 5px;
+    
+
+  }
+ 
+  .sportbig{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Times New Roman';
+    margin-left: 150px;
+     margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  
+
+
+  /* .sub-nav {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    
+
+  } 
+   */
+   .sub-nav {
+  display: flex;
+  align-items: center;
+  
+  background-color: white;
+  padding: 0px 150px;
+  border-bottom: 1px solid #ccc;
+}
+  
+  .nba-logo {
+    height: 30px;
+
+  }
+  .sub-menu {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+}
+  
+  .sub-menu a {
+    color: #000;
+    text-decoration: none;
+    
+  }
+  /* .sub-menu img {
+    color: #000;
+    align-items: flex-end;
+    text-decoration: none;
+    padding-left: 350px;
+    
+    
+  } */
+   .banner img {
+  height: 30px;
+  padding-left: 500px;
+
+}
+  
+  
+ .scoreboard {
+      display: flex;
+      gap: 16px;
+      padding: 10px 20px;
+      background-color: white;
+      overflow-x: auto;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 100px;
+    }
+
+    .score-card {
+      background: #eee;
+      padding: 10px;
+      min-width: 95px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+  .content {
+    
+    max-width: 80%;
+    margin-inline: auto;
+    border-radius: 13px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem
+  }
+
+  .nbabox {
+    padding: 12px ;
+    background-color: #fff;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  
+  .featured-article {
+    margin-bottom: 10px;
+  }
+  
+  .nbaline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.nbaline span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px; 
+}
+
+.nbaline::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2.5px solid rgb(223, 218, 218);
+}
+
+  .featured-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    margin-bottom: 15px;
+  
+  }
+  
+  .featured-article h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    color: #777;
+    font-size: 0.6em;
+    font-weight: bold;
+  
+  }
+  .box{
+    padding-left: 10px;
+  }
+
+
+  
+
+  .article-item-content {
+    padding: 15px;
+  }
+  .article-list {
+    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  margin-left: 10% ;
+    width: 53% ;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2%;
+  }
+    
+  .article-item {
+    background-color: #fafafa;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    
+  }
+   .article-item:hover {
+      background-color: green;
+      color: yellow;
+    }
+  
+  .article-item img {
+    flex: 1;
+    display: flex;
+    max-width: 100%;
+    height: 130px;
+  }
+  
+  .article-item h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+  .button:hover {
+      background-color: green;
+      color: yellow;
+    }
+  
+  .article-item p {
+    padding-left: 8 px;
+  }
+  .article-item-content .author {
+    font-size: 10px;
+  }
+  
+  .date {
+    color: #999;
+    font-size: 0.85em;
+  }
+  
+ 
+  .site-footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+  .bodycrop{
+     border: 0.5px solid red;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+   
+  }
+
+  
+  /* .sidebox{
+    margin:0 2em 0 0 ;
+    border: 1px solid red;
+    width: 20em;
+    height: 13em;
+    background-color: lightblue ;
+    border-radius:  10px ;
+  } */
+   .sidebox{
+    border-bottom: 1px solid #ccc;
+    padding:30px ;
+    margin-bottom: 10px;
+    width: 30em ;
+    height: 13em;
+    padding-left: 6px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    
+    
+   }
+   .sidebox h3{
+    margin-top: 0;
+    font-size: 18px;
+    color:  black;
+   }
+   .button {
+    display: inline-block;
+    margin: 10px 5px 0 ;
+    padding: 10px 20px;
+    background-color: #1D428A;
+     border-radius: 1.5rem;
+    
+   }
+   .button p{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16.14px;
+     color: white;
+    
+   }
+   
+
+#eiei{
+  border-radius: 25% ;
+  width: 40px;
+  height: auto;
+}
+.logo1 {
+ height: 20px;
+}
+
+.author{
+  height: 5em;
+  display: flex ;
+  flex-direction: row;
+  padding-left: 25px;
+}
+
+
+.top-row {
+  display: flex;
+
+  
+}
+
+section button {
+  width: 100% ;
+  height: 40px ;
+  border: 0 ;
+  border-radius: 20px ;
+  font-weight: bold;
+  font-size: 15px ;
+  
+}
+
+section button span {
+  font-weight: 800 ;
+  font-size: 14px ;
+}
+
+section p {
+  text-align: center;
+  font-size: small;
+  color: #777;
+}
+
+.video-section {
+  width: 100%;
+  height: 915px;
+  background-color: #1f1f1f;
+  margin-top: 10px  ;
+  padding: 40px 16px 106px;
+  align-items: center;
+}
+
+.vdotop{
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 10% 16px;
+  white-space: nowrap;
+}
+#video-section-header {
+  color: white;
+  background-color: #000;
+  width: 185px ;
+  height: 43px;
+  text-align: center;
+  padding: 10px  ;
+  font-weight: bold;
+  border-radius: 25px   ;
+  padding: 8px 40px;
+  align-items: center;
+  border: #707070 1px solid;
+}
+
+.vdotop span{
+  width: 100%;
+  border-top: #707070 1px solid;
+
+}
+
+video{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+
+
+
+.vdo-section-footer{
+  background-color: #1f1f1f;
+  margin-top: 105px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  width: 100vw;
+  
+  
+
+}
+
+
+
+.company ,.thesportingnews ,.partner{
+  line-height: 2;
+  text-align: start;
+  width: 320px;
+  height: 164x;
+}
+
+.conpanycontent{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: 
+  "b o"
+  "s s"
+  "j j"
+  ;
+}
+
+.compa1{ grid-area:b ;}
+.compa2{ grid-area:s ;}
+.compa3{ grid-area:j ;}
+.compa4{ grid-area:o ;}
+
+
+.site-footer{
+  margin: 0px -17px;
+}
+
+.hamburger{
+  display: none;
+}
+.sidebox2{
+    display: none;
+  }
+
+
+@media screen and (max-width: 475px) {
+  .sidebox{
+  display: none;
+  }
+  .sidebox2{
+    display:block;
+    border-bottom: 1px solid #ccc;
+    padding:30px ;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    height: 161.6px;
+    padding-left: 6px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    
+    
+   }
+   .logon{
+    width: 24px;
+   }
+   .sidebox2 h3{
+    margin-top: 0;
+    font-size: 16px;
+    color:  black;
+   }
+   .top-row{
+    margin-bottom: 10px;
+   }
+   .gridd{
+      height: 92px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: auto auto;
+      grid-template-areas: 
+      "topl topr"
+      "butl butr"
+      ;
+   }
+   .button.button1{ grid-area: topl; }
+   .button.button2{ grid-area: topr; }
+   .button.button3{ grid-area: butl; }
+
+   .button {
+    text-align: center;
+    width: 182px;
+    height: 40px;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #1D428A;
+     border-radius: 1.5rem;
+    
+   }
+   .button p{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+     color: white;
+    
+   }
+
+  .top-nav{
+     margin: 0;
+     height: 31px;
+     margin-top: 0;
+     display: flex;
+     align-items: center;
+  }
+  .top-nav ul li{
+    font-size: 10px;
+  }
+
+  .site-header{
+    padding: 0;
+
+  }
+  
+  .article-list img{
+    width: 195px;
+    height: 130px;
+
+  }
+  .article-list{
+    width: 100%;
+    margin: 0;
+  }
+
+  .sport1{
+    display: none;
+  }
+  .sportbig{
+    margin: 0 16px;
+    height: 56px;
+    display: flex;
+    align-items:center;
+  }
+  .sub-menu{
+    font-size: 14px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .sport{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hamburger{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .sub-nav{
+    padding: 0;
+
+  }
+  .sub-menu{
+    padding: 10px;
+  }
+  .video-section{
+    height: 360px;
+  }
+  .video{
+    height: auto;
+  }
+
+  .vdo-section-footer{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 0 20px;
+    
+  }
+  
+  .vdo-section-footer div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .thesportingnews ,.company,.partner{
+    border-top: #333 1px solid;
+    padding-top: 5px 10px 0 0;
+  }  
+
+  .banner img {
+  height: 30px;
+  padding-left: 120px;
+
+  }
+}
